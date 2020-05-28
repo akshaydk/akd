@@ -17,6 +17,10 @@ const md = new MarkdownIt({
 md.use(mip)
 
 module.exports = {
+  mode: 'spa',
+  router: {
+    base: '/akd/'
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [
