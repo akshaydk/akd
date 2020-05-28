@@ -40,7 +40,7 @@ module.exports = {
   */
   css: [
     'bootstrap-vue/nuxt',
-    '@/assets/css/prism-material-light.css'
+    '@/assets/css/prism-material-dark.css'
   ],
 
   build: {
