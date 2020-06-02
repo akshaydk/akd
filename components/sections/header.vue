@@ -12,7 +12,6 @@
           
           <b-nav-item href="https://www.linkedin.com/in/dhupamakshay/" target="_blank">LinkedIn</b-nav-item>
           <b-nav-item href="https://github.com/akshaydk" target="_blank">Github</b-nav-item>
-          <b-nav-item href="#">Resume</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar> 

@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "generate": "nuxt generate",
-    "analyze": "nuxt build --analyze",
+    "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "analyze": "DEPLOY_ENV=GH_PAGES nuxt build --analyze",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

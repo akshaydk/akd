@@ -16,11 +16,15 @@ const md = new MarkdownIt({
 })
 md.use(mip)
 
-module.exports = {
-  mode: 'spa',
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/akd/'
-  },
+  }
+} : {}
+
+module.exports = {
+  mode: 'spa',
+  ...routerBase,
   head: {
     title: process.env.npm_package_name || '',
     meta: [
