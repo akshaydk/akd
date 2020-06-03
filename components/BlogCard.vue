@@ -25,9 +25,6 @@ export default {
 .card {
       height: 100%;
       padding: 1rem;
-      padding-bottom:0;
-      margin: 1rem;
-      margin-bottom: 0;
       border: none;
       border-bottom: thick double #7da1b3;
 
