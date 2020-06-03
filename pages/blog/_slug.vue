@@ -1,6 +1,6 @@
 <template>
   <div>    
-    <h3 class="title"
+    <h3 class="blog_title"
          align="center">
       {{ title }}
     </h3>
@@ -41,9 +41,8 @@ export default {
 </script>
 
 <style>
-.title{
-  margin-top: 40px;
-  margin-bottom: 40px;
+.blog_title{
+  margin: 2rem;
   font-family: 'Tiempos Headline', Arial, sans-serif;
 }
 </style>

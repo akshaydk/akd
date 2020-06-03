@@ -1,7 +1,7 @@
 <template>
-  <div id="app"> 
+  <div class="layout"> 
     <Header/>  
-    <Nuxt/>
+    <Nuxt class="nuxt-content"/>
   <Footer/>
   </div>
 </template>
@@ -21,5 +21,12 @@ export default {
 </script>
 
 <style>
-
+.layout{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.nuxt-content {
+  flex-grow: 1;
+}
 </style>

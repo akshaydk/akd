@@ -1,11 +1,13 @@
 <template>
   <div class="container">
     <blog-section :articles="articles" />
+    <about-me />
   </div>
 </template>
 
 <script>
   import BlogSection from '~/components/sections/BlogSection.vue';   
+  import AboutMe from './About_Me.vue';   
   import Articles from '~/content/articles.js';
   
   export default{ 
@@ -24,7 +26,8 @@
         })      
       },   
     components: {
-      BlogSection
+      BlogSection,
+      AboutMe
     },
     
     transition: {
@@ -33,3 +36,6 @@
   }
   
 </script>
+
+<style>
+</style>
