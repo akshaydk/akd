@@ -7,8 +7,8 @@
           target="_blank"
           href="mailto:dhupamakshay.kumar@gmail.com"
         >mail</a>.
-        <br />Connect with
-        <a target="_blank" href="https://www.linkedin.com/in/dhupamakshay/">Akshay Kumar</a>.
+        <br />Connect with me in
+        <a target="_blank" href="https://www.linkedin.com/in/dhupamakshay/">LinkedIn</a>.
         <br />
       </div>
     </div>

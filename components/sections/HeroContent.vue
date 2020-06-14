@@ -6,7 +6,7 @@
       </li>
       <li class="hero-content">
         <vue-typed-js
-          :strings="['Hello there!', 'I\'m Akshay Kumar.', 'Software Engineer']"
+          :strings="[ 'Akshay Kumar.', 'a Software Engineer.', 'looking for a change.']"
           :loop="true"
           :smartBackspace="true"
           :typeSpeed="120"
@@ -14,7 +14,7 @@
           :backDelay="200"
         >
           <h2>
-            <span class="typing"></span>
+            I'm <span class="typing"></span>
           </h2>
         </vue-typed-js>
       </li>
