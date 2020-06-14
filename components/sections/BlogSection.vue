@@ -44,6 +44,12 @@ export default{
     grid-template-columns: 1fr;
     padding: 0;
   }
+  .blog-section{
+    padding: .5rem;
+  }
+  ._title{
+    margin:0;
+  }
 }
 </style>
 
