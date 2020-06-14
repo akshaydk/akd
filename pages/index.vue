@@ -1,14 +1,19 @@
 <template>
   <div class="container">
-    <blog-section :articles="articles" />
+    <hero-content />
     <about-me />
+    <tech-stack/>
+    <blog-section :articles="articles" />
+
   </div>
 </template>
 
 <script>
+  import HeroContent from '~/components/sections/HeroContent.vue';   
   import BlogSection from '~/components/sections/BlogSection.vue';   
   import AboutMe from './About_Me.vue';   
   import Articles from '~/content/articles.js';
+  import TechStack from '~/components/sections/TechStack.vue';
   
   export default{ 
       async asyncData ({env}) {
@@ -26,13 +31,11 @@
         })      
       },   
     components: {
+      HeroContent,
       BlogSection,
-      AboutMe
-    },
-    
-    transition: {
-      name: 'slide-fade'
-    },
+      AboutMe,
+      TechStack
+    }
   }
   
 </script>

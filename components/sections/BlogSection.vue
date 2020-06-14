@@ -1,5 +1,6 @@
 <template>
   <div class="blog-section">
+    <h4 class="_title"> Blog </h4>
     <ul class="blog">
         <blog-card 
           v-for="article in articles"
@@ -26,15 +27,15 @@ export default{
 
 <style>
 .blog-section{
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  padding: 2rem;
 }
 
 .blog{
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
+  grid-gap: 1rem;
+  padding-left: 0;
 }
 
 @media only screen and (max-width: 768px) {

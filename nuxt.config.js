@@ -69,10 +69,23 @@ module.exports = {
             return md.render(body)
           }
         }
-      });
+      },{
+        test: /\.(jpe?g|png)$/i,
+        loader: 'responsive-loader',
+        options: {
+          placeholder: true,
+          quality: 60,
+          min: 575,
+          max: 1400,
+          adapter: require('responsive-loader/sharp')
+        }
+      }
+      );
     }
   },
-  plugins: [],
+  plugins: [
+    { src: "~/plugins/typed.js", ssr: true },
+  ],
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',

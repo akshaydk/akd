@@ -1,0 +1,25 @@
+export default [ 
+    { name: 'Ruby on Rails' },
+    { name: 'Vue.js' },
+    { name: 'Nuxt.js' },
+    { name: 'Ruby' },
+    { name: 'Java' },
+    { name: 'C#' },
+    { name: 'Python' },
+    { name: 'Javascript' },
+    { name: 'HTML' },
+    { name: 'CSS' },
+    { name: 'MySQL' },
+    { name: 'Postgres' },
+    { name: 'Redis' },
+    { name: 'RabbitMQ' },
+    { name: 'Jenkins' }, 
+    { name: 'Bamboo' },
+    { name: 'GIT' },
+    { name: 'Docker' },
+    { name: 'Web Development' },
+    { name: 'Workflow Applications' },
+    { name: 'Software Engineering' },
+    { name: 'Algorithms' }
+
+]
