@@ -11,7 +11,7 @@
 <script>
   import HeroContent from '~/components/sections/HeroContent.vue';   
   import BlogSection from '~/components/sections/BlogSection.vue';   
-  import AboutMe from './About_Me.vue';   
+  import AboutMe from '~/components/sections/AboutMe.vue';   
   import Articles from '~/content/articles.js';
   import TechStack from '~/components/sections/TechStack.vue';
   
